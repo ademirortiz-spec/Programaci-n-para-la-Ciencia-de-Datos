@@ -1,0 +1,50 @@
+// Mapa Conceptual - Dataset Terremotos
+digraph {
+	rankdir=TB
+	node [fillcolor=lightblue fontname=Arial shape=box style="rounded,filled"]
+	graph [bgcolor=white fontname=Arial]
+	root [label="DATASET TERREMOTOS
+CHILE 2000-2024
+(134,062 registros)" fillcolor="#FFD700" fontsize=12 fontweight=bold shape=box style="rounded,filled"]
+	cat [label="VARIABLES
+CATEGORICAS
+(6 variables)" fillcolor="#87CEEB" fontsize=11]
+	nom [label="NOMINALES
+(Sin orden)" fillcolor="#B0E0E6" fontsize=10]
+	ord [label="ORDINALES
+(Con orden)" fillcolor="#B0E0E6" fontsize=10]
+	num [label="VARIABLES
+NUMERICAS
+(2 variables)" fillcolor="#90EE90" fontsize=11]
+	cont [label="CONTINUAS
+(Infinitos valores)" fillcolor="#98FB98" fontsize=10]
+	nom1 [label="Location
+(28,965 valores únicos)" fillcolor="#E0FFFF" fontsize=9]
+	nom2 [label="UTC Date
+(133,946 valores únicos)" fillcolor="#E0FFFF" fontsize=9]
+	ord1 [label="Magnitude
+(244 valores únicos)" fillcolor="#E0FFFF" fontsize=9]
+	ord2 [label="Profoundity
+(391 valores únicos)" fillcolor="#E0FFFF" fontsize=9]
+	ord3 [label="Date
+(8,771 valores únicos)" fillcolor="#E0FFFF" fontsize=9]
+	ord4 [label="Hour
+(68,078 valores únicos)" fillcolor="#E0FFFF" fontsize=9]
+	cont1 [label="Latitude
+(Rango: -65.4 a 58.7)" fillcolor="#F0FFF0" fontsize=9]
+	cont2 [label="Longitude
+(Rango: -179.9 a 179.6)" fillcolor="#F0FFF0" fontsize=9]
+	root -> cat
+	root -> num
+	cat -> nom
+	cat -> ord
+	nom -> nom1
+	nom -> nom2
+	ord -> ord1
+	ord -> ord2
+	ord -> ord3
+	ord -> ord4
+	num -> cont
+	cont -> cont1
+	cont -> cont2
+}

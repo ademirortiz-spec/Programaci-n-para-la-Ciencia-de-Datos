@@ -1,0 +1,48 @@
+LEVANTAMIENTO INICIAL DEL PROYECTO
+
+Version 1.0
+
+1. DATASET
+Nombre: Terremotos en Chile 2000-2024
+Registros: 134,062 eventos sísmicos
+Período: 2000-2024 (24 años)
+Fuente: Kaggle
+2. VARIABLES DEL DATASET (8 totales)
+CATEGÓRICAS (6):
+
+Nominales (sin orden):
+
+Location - Descripción geográfica (28,965 valores únicos)
+UTC Date - Timestamp UTC (133,946 valores únicos)
+Ordinales (con orden):
+
+Magnitude - Magnitud terremoto (244 valores únicos)
+Profoundity - Profundidad en km (391 valores únicos)
+Date - Fecha local (8,771 valores únicos)
+Hour - Hora exacta (68,078 valores únicos)
+NUMÉRICAS (2):
+
+Continuas:
+Latitude - Coordenada Y (Rango: -65.4 a 58.7)
+Longitude - Coordenada X (Rango: -179.9 a 179.6)
+Fuente de datos
+https://www.kaggle.com/datasets/javierquinterosm/earthquakes-in-chile-2000-2024?resource=download
+
+
+Requerimientos minimos
+# Librerías principales para análisis de datos
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualización de datos
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Jupyter
+jupyter>=1.0.0
+ipykernel>=6.22.0
+notebook>=6.5.0
+
+# Utilidades adicionales
+python-dateutil>=2.8.2
+pytz>=2023.3
