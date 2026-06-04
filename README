@@ -28,6 +28,16 @@ Longitude - Coordenada X (Rango: -179.9 a 179.6)
 Fuente de datos
 https://www.kaggle.com/datasets/javierquinterosm/earthquakes-in-chile-2000-2024?resource=download
 
+2. OBJETIVO GENERAL
+ Predecir la ubicación geográfica de un terremoto a partir de la data de terremotos en Chile entre el 2000 y 2024.
+
+3. OBJETIVOS ESPECÍFICOS
+A. Analizar dataset manualmente para encontrar patrones geoespaciales de ocurrencia en potencia.
+B. Preparar los datos en función del tipo de variables
+C. Explorar las caracteristicas del datasets
+D. Analizar tendencias del comportamiento de los terremotos en Chile entre el 2000 y 2024
+E. Modelar datos sismicos
+F. Validar datos sismicos
 
 Requerimientos minimos
 # Librerías principales para análisis de datos
