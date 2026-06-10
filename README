@@ -38,21 +38,3 @@ C. Explorar las caracteristicas del datasets
 D. Analizar tendencias del comportamiento de los terremotos en Chile entre el 2000 y 2024
 E. Modelar datos sismicos
 F. Validar datos sismicos
-
-Requerimientos minimos
-# Librerías principales para análisis de datos
-pandas>=2.0.0
-numpy>=1.24.0
-
-# Visualización de datos
-matplotlib>=3.7.0
-seaborn>=0.12.0
-
-# Jupyter
-jupyter>=1.0.0
-ipykernel>=6.22.0
-notebook>=6.5.0
-
-# Utilidades adicionales
-python-dateutil>=2.8.2
-pytz>=2023.3
