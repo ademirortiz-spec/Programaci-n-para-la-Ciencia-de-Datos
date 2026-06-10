@@ -1,17 +1,21 @@
-contourpy==1.3.3
-cycler==0.12.1
-fonttools==4.63.0
-graphviz==0.21
-kiwisolver==1.5.0
-matplotlib==3.10.9
-numpy==2.4.6
-packaging==26.2
-pandas==3.0.3
-pillow==12.2.0
-pyparsing==3.3.2
-python-dateutil==2.9.0.post0
-seaborn==0.13.2
-six==1.17.0
-tzdata==2026.2
-jupyter==1.0.0
-ipython==8.18.1
+contourpy==1.3.3    # Backend para contornos usado por Matplotlib (útil al trazar mapas o contornos)
+cycler==0.12.1      # Gestión de ciclos de estilos/colores para Matplotlib
+fonttools==4.63.0   # Manipulación y conversión de fuentes para renderizar texto en figuras
+graphviz==0.21      # Generación/expotación de diagramas (mapa conceptual en `docs`)
+kiwisolver==1.5.0   # Motor de resolución de restricciones usado internamente por Matplotlib
+matplotlib==3.10.9  # Biblioteca principal de visualización y generación de plots/mapas
+numpy==2.4.6        # Cálculo numérico y arrays; base para procesamiento y para pandas
+packaging==26.2     # Utilidades para parsing de versiones (dependencia de herramientas)
+pandas==3.0.3       # Lectura/manipulación de CSV y dataframes (limpieza y análisis de datos)
+pillow==12.2.0      # Manipulación de imágenes (guardar/abrir PNG para mapas/figuras)
+pyparsing==3.3.2    # Parser requerido por algunas librerías (p. ej. matplotlib/graphviz)
+python-dateutil==2.9.0.post0  # Parsers y utilidades de fecha/hora (usado por pandas)
+seaborn==0.13.2     # Visualizaciones estadísticas y estilos sobre Matplotlib
+six==1.17.0         # Compatibilidad entre versiones de Python para dependencias (infra)
+tzdata==2026.2      # Base de datos de zonas horarias para manejo correcto de timestamps
+jupyter==1.0.0      # Ejecutar y gestionar notebooks (`analisis_terremotos.ipynb`)
+ipython==8.18.1     # Shell interactivo y backend para ejecución en notebooks
+
+# Nota: varias entradas (pyparsing, six, packaging, kiwisolver, contourpy, etc.) son
+# dependencias requeridas por Matplotlib, pandas o Jupyter pero se incluyen para
+# garantizar reproducibilidad del entorno y porque forman parte de la cadena de uso.
