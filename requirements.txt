@@ -1,6 +1,7 @@
 
 ## Para modelación
 numpy==2.4.6        # Cálculo numérico y arrays; base para modelado y operaciones vectorizadas
+scikit-learn==1.9    # Libería de Python para facilitar en análisis predictivo.
 
 ## Para análisis de datos
 pandas==3.0.3       # Lectura/manipulación de CSV y dataframes (limpieza y análisis de datos)
