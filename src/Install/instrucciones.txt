@@ -1,0 +1,9 @@
+Pasos rápidos 
+
+1) Abre PowerShell.
+2) Ve a la carpeta raíz del proyecto:
+   Set-Location 'C:\Users\XXXXXXXXXXX\Documents\Programaci-n-para-la-Ciencia-de-Datos\pcd_02'
+3) Ejecuta el instalador (no hace falta VS Code):
+   powershell -NoProfile -ExecutionPolicy Bypass -File .\src\Install\install_requirements.ps1
+4) Comprueba que todo quedó OK:
+   python src\Install\validate_requirements.py
