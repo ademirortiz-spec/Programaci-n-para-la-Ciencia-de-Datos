@@ -38,3 +38,23 @@ C. Explorar las caracteristicas del datasets
 D. Analizar tendencias del comportamiento de los terremotos en Chile entre el 2000 y 2024
 E. Modelar datos sismicos
 F. Validar datos sismicos
+
+4. ESTRUCTURA RECOMENDADA
+
+Estructura recomendada (para evidenciar Fase 1):
+
+- `data/` — datos crudos (`raw/`) y datos procesados (`clean.csv`).
+- `src/` — scripts Python: `preprocessing.py`, `eda.py`, `model.py`, `run_all.py`.
+- `notebooks/` — notebooks reproducibles (`analisis_terremotos.ipynb`).
+- `figures/` — figuras generadas por EDA.
+- `artifacts/` — modelos o métricas persistidas.
+
+Rama sugerida para la evidencia técnica: `fase1-structure`.
+
+Pasos sugeridos para crear la evidencia en Git:
+1. Crear la rama local y subirla: `git checkout -b fase1-structure`.
+2. Añadir los módulos en `src/` (skeletons ya proporcionados) y actualizar `README`.
+3. Realizar commits por cada integrante (usar `--author "Nombre <email>"` para identificar).
+4. Push a remoto: `git push origin fase1-structure`.
+
+Nota: Los scripts y notebooks deben vivir dentro de las carpetas indicadas para mantener trazabilidad y coherencia.
