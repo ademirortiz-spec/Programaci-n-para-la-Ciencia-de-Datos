@@ -29,15 +29,20 @@ Fuente de datos
 https://www.kaggle.com/datasets/javierquinterosm/earthquakes-in-chile-2000-2024?resource=download
 
 2. OBJETIVO GENERAL
- Predecir la ubicación geográfica de un terremoto a partir de la data de terremotos en Chile entre el 2000 y 2024.
+El objetivo general de este proyecto de análisis de datos de terremotos registrados en Chile entre el 2000 y 2024 
+pretende estudiar los patrones generados entre los datos, ya mencionados anteriormente en la descripción de los datos, 
+y generar un flujo de trabajo que se asocia a los productos que se piden, con respecto al análisis. Siendo más específico 
+tratar de predecir la ubicación geográfica de un terremoto a partir de modelado de datos del dataset correspondiente.
 
 3. OBJETIVOS ESPECÍFICOS
-A. Analizar dataset manualmente para encontrar patrones geoespaciales de ocurrencia en potencia.
-B. Preparar los datos en función del tipo de variables
-C. Explorar las caracteristicas del datasets
-D. Analizar tendencias del comportamiento de los terremotos en Chile entre el 2000 y 2024
-E. Modelar datos sismicos
-F. Validar datos sismicos
+a. Preprocesar el dataset de datos sísmicos realizando limpieza y tratamiento de datos para asegurar la calidad de la información utilizada.
+
+b. Ejecutar un Análisis Exploratorio de datos (EDA) y estadístico para identificar patrones espaciotemporales, tendencias de acumulación y 
+correlaciones entre las variables clave.
+
+c. Diseñar modelo de Machine Learning capaz de interpretar los patrones de los sismos para poder predecir la ocurrencia de estos.
+
+d. Evaluar y validar el rendimiento del modelo desarrollado con estadísticas de error y precisión.
 
 4. ESTRUCTURA RECOMENDADA
 
