@@ -16,6 +16,9 @@ ipython==8.18.1     # Shell interactivo y kernel para notebooks
 ## Otras (visualización, imágenes y utilidades de soporte)
 matplotlib==3.10.9  # Biblioteca principal de visualización y generación de plots/mapas
 seaborn==0.13.2     # Visualizaciones estadísticas y estilos sobre Matplotlib
+plotly==5.24.1      # Gráficos interactivos y visualizaciones avanzadas
+folium==0.18.0      # Mapas interactivos geoespaciales basados en Leaflet
+geopy==2.4.1        # Cálculos geodésicos y servicios de geolocalización
 contourpy==1.3.3    # Backend para contornos usado por Matplotlib (útil al trazar mapas/contornos)
 cycler==0.12.1      # Gestión de ciclos de estilos/colores para Matplotlib
 kiwisolver==1.5.0   # Motor de resolución de restricciones usado internamente por Matplotlib
